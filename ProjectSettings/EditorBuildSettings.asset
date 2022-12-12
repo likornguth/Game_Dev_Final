@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pong.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: ba8c8dc2bf724d2498924edb573e849d
+  - enabled: 1
+    path: Assets/Scenes/Text-Test (PEDRO).unity
+    guid: 38b32beb803d05b46b966d33220633e5
   m_configObjects: {}

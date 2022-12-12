@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EventManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class EventManager : MonoBehaviour
     public Dialogue diag;
     public Cutscene[] cutscenes;
     private int cutscenePos = 0;
+    private string nextScene;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,7 @@ public class EventManager : MonoBehaviour
     {
         if(cutscenes.Length > cutscenePos)
         {
+            nextScene = cutscenes[cutscenePos].nextScene;
             unpackCutScene(cutscenes[cutscenePos++]);
         }
         else
@@ -52,7 +55,20 @@ public class EventManager : MonoBehaviour
 
     public void textFinished()
     {
-        nextCutScene();
+
+        if (nextScene != null && nextScene != string.Empty)
+        {
+            Debug.Log("a");
+            Debug.Log(nextScene);
+            SceneManager.LoadScene(nextScene);
+        }
+        else
+        {
+            nextCutScene();
+        }
+
+
+        
     }
     
 }
