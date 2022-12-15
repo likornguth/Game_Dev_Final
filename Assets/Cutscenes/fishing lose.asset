@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a3dba11cc714b4a9a9f1181b6d7acf, type: 3}
   m_Name: fishing lose
   m_EditorClassIdentifier: 
-  filename: 
+  filename: Assets/CutsceneTextFiles/PONG-LOSE.txt
   lines: []
   color: {r: 0, g: 0, b: 0, a: 0}
-  nextScene: Assets/Scenes 1/Pong.unity
+  nextScene: Assets/FishingGame2021.unity
   waitTime: 0

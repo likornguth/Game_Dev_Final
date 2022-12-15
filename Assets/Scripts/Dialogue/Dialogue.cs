@@ -67,16 +67,16 @@ public class Dialogue : MonoBehaviour
             if (lines[index].Contains("AL:"))
             {
                 textComponent.color = new Color(1, 0, 0);
-                lines[index] = lines[index].Replace("AL:", "");
+                lines[index] = lines[index].Replace("AL: ", "");
             }
             else if (lines[index].Contains("PLAYER:"))
             {
                 textComponent.color = new Color(1, 1, 0);
-                lines[index] = lines[index].Replace("PLAYER:", "");
+                lines[index] = lines[index].Replace("PLAYER: ", "");
             }
             else
             {
-                textComponent.color = new Color(1, 1, 0);
+                textComponent.color = new Color(0, 0, 1);
             }
             StartCoroutine(TypeLine());
         }

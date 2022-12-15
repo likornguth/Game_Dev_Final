@@ -308,7 +308,6 @@ GameObject:
   m_IsActive: 1
 --- !u!120 &289451918
 LineRenderer:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -402,13 +401,10 @@ LineRenderer:
     numCapVertices: 0
     alignment: 0
     textureMode: 1
-    textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
-  m_MaskInteraction: 0
   m_UseWorldSpace: 0
   m_Loop: 0
-  m_ApplyActiveColorSpace: 0
 --- !u!4 &289451919
 Transform:
   m_ObjectHideFlags: 0
@@ -459,6 +455,8 @@ MonoBehaviour:
   playerScoreText: {fileID: 228497188}
   computerPaddle: {fileID: 1362602729}
   computerScoreText: {fileID: 618610096}
+  pongWin: Assets/Scenes/Pong Win.unity
+  pongLose: Assets/Scenes/Pong Lose.unity
 --- !u!4 &417150623
 Transform:
   m_ObjectHideFlags: 0
@@ -645,7 +643,7 @@ LightingSettings:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
-  serializedVersion: 5
+  serializedVersion: 4
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 0
   m_EnableRealtimeLightmaps: 0
@@ -685,7 +683,7 @@ LightingSettings:
   m_LightProbeSampleCountMultiplier: 4
   m_PVRBounces: 2
   m_PVRMinBounces: 2
-  m_PVREnvironmentImportanceSampling: 0
+  m_PVREnvironmentMIS: 1
   m_PVRFilteringMode: 2
   m_PVRDenoiserTypeDirect: 0
   m_PVRDenoiserTypeIndirect: 0
@@ -700,7 +698,6 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
-  m_NumRaysToShootPerTexel: -1
 --- !u!1 &702247801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1673,7 +1671,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

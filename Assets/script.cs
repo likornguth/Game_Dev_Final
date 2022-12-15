@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using static UnityEngine.GraphicsBuffer;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class script : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class script : MonoBehaviour
     public int score;
     public TextMeshProUGUI myText;
     public Vector3 initPos;
+    public string fishWin;
+    public string fishLose;
 
     // Start is called before the first frame update
     void Start()
@@ -65,6 +68,11 @@ public class script : MonoBehaviour
         {
             t.position += Vector3.up;
         }
+
+        if(score >= 10)
+        {
+            SceneManager.LoadScene(fishWin);
+        }
     }
 
     void Reel()
@@ -74,6 +82,11 @@ public class script : MonoBehaviour
         StartCoroutine(waiter());
         
 
+    }
+
+    void fishingLose()
+    {
+        SceneManager.LoadScene(fishLose);
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -105,6 +118,7 @@ public class script : MonoBehaviour
             print("shark!");
             myText.text = "Game Over! \n final score: " + score.ToString();
             rb.AddForce(new Vector2(0, -1) * 3, ForceMode2D.Impulse);
+            fishingLose();
             Destroy(this);
 
         }

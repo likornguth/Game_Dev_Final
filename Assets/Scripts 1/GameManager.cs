@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class GameManager : MonoBehaviour
     public int computerScore { get; private set; }
     public Text computerScoreText;
 
+    public string pongWin;
+    public string pongLose;
+
+
     private void Start()
     {
         NewGame();
@@ -22,6 +27,16 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R)) {
             NewGame();
+        }
+
+        if(playerScore >= 5 && pongWin != string.Empty)
+        {
+            SceneManager.LoadScene(pongWin);
+        }
+
+        if(computerScore >= 5 && pongLose != string.Empty)
+        {
+            SceneManager.LoadScene(pongLose);
         }
     }
 

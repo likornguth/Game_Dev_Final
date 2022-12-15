@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes 1/Pong.unity
     guid: 756da47ca273b4f96b17644570c22223
+  - enabled: 1
+    path: Assets/Scenes/Pong Win.unity
+    guid: e34bbe80efe269547ba3cae806d7f6b9
+  - enabled: 1
+    path: Assets/Scenes/Pong Lose.unity
+    guid: a310b9357ea5de44cb450c11fea6ef1c
+  - enabled: 1
+    path: Assets/Scenes/Fishing Lose.unity
+    guid: 0a1d9d715c8388242bb1982ebab05b52
+  - enabled: 1
+    path: Assets/Scenes/Fishing Win.unity
+    guid: 73f41662399d00f418419befa1d92a56
+  - enabled: 1
+    path: Assets/FishingGame2021.unity
+    guid: 878cb6a01f26340e5a9be7d8a5be93f9
   m_configObjects: {}

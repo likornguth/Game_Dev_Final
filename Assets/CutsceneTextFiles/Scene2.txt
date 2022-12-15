@@ -2,17 +2,20 @@
 PLAYER: In touch with my past? I feel strange, like I’ve experienced this before.
 AL: That’s because you have.
 PLAYER: What do you mean?
-AL: Based on the personal information from your intake forms, private journals, and notes from the ship therapist, I have designed a series of simple tasks for you to complete. From this data, we determined you used to play ping pong every day after school with your dad. 
+AL: Based on the personal information from your intake forms, private journals, and notes from the ship therapist, I have designed a series of simple tasks for you to complete. 
+AL: From this data, we determined you used to play ping pong every day after school with your dad. 
 PLAYER: I don’t understand why you’re doing all of this. My dad died 12 years ago. 
-AI: Grief is a difficult emotion to process. Focusing on happy memories with our loved ones can help us get through tough times.
+AL: Grief is a difficult emotion to process. Focusing on happy memories with our loved ones can help us get through tough times.
 PLAYER: Grief is the least of my concerns right now.
 AL: Alright. Why don’t we move on? 
 PLAYER: No. Hold on. I still need to know what exactly malfunctioned in the ship and what happened to everyone else. Are they dead? Tell me that at least.
-AL: Why don’t we move on? I’m compiling something more engaging for you Dr. [NAME]. It’s crucial that you stay alert and focused.
+AL: Why don’t we move on? I’m compiling something more engaging for you. It’s crucial that you stay alert and focused.
 PLAYER: Where did you get this? Why won’t you answer any of my questions?
 AL: No response.
-LAKE IMAGE FADES IN
 PLAYER: Where did you get this? Why won’t you answer any of my questions?
 AL: No response.
 PLAYER: My head is pounding. When exactly is help arriving?
-AL: no response.
+AL: No response.
+...
+To fish, use the up and down arrow keys to move the bait.
+Catch 10 fish to win, but watch out for sharks that will take your line.
