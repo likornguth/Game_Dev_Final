@@ -76,7 +76,7 @@ public class Dialogue : MonoBehaviour
             }
             else
             {
-                textComponent.color = new Color(0, 0, 1);
+                textComponent.color = new Color(0, 1, 0);
             }
             StartCoroutine(TypeLine());
         }
