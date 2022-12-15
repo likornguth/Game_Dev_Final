@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: d30f257387206554f8b63cbca3b42882
+  - enabled: 1
+    path: Assets/Scenes/First Dialogue.unity
+    guid: d7226e829d888544a96933050f3e965b
+  - enabled: 1
+    path: Assets/Scenes 1/Pong.unity
+    guid: 756da47ca273b4f96b17644570c22223
   m_configObjects: {}

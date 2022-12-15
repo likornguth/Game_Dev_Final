@@ -1,0 +1,14 @@
+﻿AL: Congrats! 
+AL: You are in touch with your past.
+You hear your mother’s voice calling you in for supper.
+PLAYER: What’s happening?
+You feel the lake breeze brush against your cheek.
+PLAYER: I do, don’t I?
+AL: Oxygen levels are dangerously low.
+PLAYER: I hear my mother calling me in for supper.
+AL: Heart rate is slowing.
+PLAYER: I feel the lake breeze brush by my cheek.
+AL: .
+AL: ..
+AL: ...
+AL: Time of death, 22:47.

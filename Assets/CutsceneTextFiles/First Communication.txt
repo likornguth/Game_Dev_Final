@@ -1,0 +1,14 @@
+AL: There has unfortunately been a malfunction with the spaceship. Your ship and crew are not available anymore. You have sustained a blunt force injury to the head. A distress signal has been sent out. Help is on the way.
+PLAYER: A malfunction? 
+AL: Help is on the way. It’s my job to keep you calm until help arrives.
+PLAYER: What happened to the ship? Where is the rest of the crew?
+AL: Help is on the way. It’s my job to keep you calm until help arrives. In survival situations, it’s important to maintain your composure and keep a positive attitude.
+PLAYER: I don’t remember anything at all. 
+AL: You sustained a blunt force injury to the head. Based on the personal information from your intake forms, private journals, and notes from the ship therapist, I have designed a series of simple tasks for you to complete. 
+PLAYER: That feels unethical.
+PLAYER: Hello? What kind of tasks? How will they help me survive?
+AL: In survival situations, it’s important to maintain your composure and keep a positive attitude. 
+PLAYER: Did anyone else survive?
+AL: Don’t worry about the others—let’s focus on factors within our control. You will slow your heart rate and calm your senses by playing ping pong. Let’s play.
+PLAYER: I can’t believe this is happening.
+PLAYER: what’s going on? Why am I seeing this?
